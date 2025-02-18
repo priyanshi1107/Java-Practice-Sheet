@@ -1,5 +1,9 @@
+import string.Palindrome;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Palindrome palindromeObj = new Palindrome();
+        System.out.println(palindromeObj.isPalindrome("abba"));
     }
 }
