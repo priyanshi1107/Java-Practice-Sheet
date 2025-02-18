@@ -1,3 +1,4 @@
+import string.IsAnagram;
 import string.IsSubsequence;
 import string.Palindrome;
 
@@ -7,7 +8,11 @@ public class Main {
 //        Palindrome palindromeObj = new Palindrome();
 //        System.out.println(palindromeObj.isPalindrome("abba"));
 
-        IsSubsequence isSubsequenceobj = new IsSubsequence();
-        System.out.println(isSubsequenceobj.isSub("priyanshi","priya",9,5));
+//        IsSubsequence isSubsequenceObj = new IsSubsequence();
+//        System.out.println(isSubsequenceObj.isSub("priyanshi","priya",9,5));
+
+        IsAnagram isAnagramObj = new IsAnagram();
+//        System.out.println(isAnagramObj.naiveSolutionOfAnagram("aayush","yaashu"));
+
     }
 }
