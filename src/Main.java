@@ -1,3 +1,5 @@
+import learningFactoryPattern.Employee;
+import learningFactoryPattern.EmployeeFactoryDesign;
 import string.IsAnagram;
 import string.IsSubsequence;
 import string.Palindrome;
@@ -15,8 +17,12 @@ public class Main {
 //        IsAnagram isAnagramObj = new IsAnagram();
 //        System.out.println(isAnagramObj.naiveSolutionOfAnagram("aayush","yaashu"));
 
-        CountDigits countDigitsObj = new CountDigits();
-        System.out.println(countDigitsObj.evenlyDividesEasy(1234));
+//        CountDigits countDigitsObj = new CountDigits();
+//        System.out.println(countDigitsObj.evenlyDividesEasy(1234));
 
+        //Factory Design Pattern
+
+        Employee employee = EmployeeFactoryDesign.getEmployee("Android Developer");
+        employee.Salary();
     }
 }
