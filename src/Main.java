@@ -1,9 +1,6 @@
 import learningFactoryPattern.Employee;
 import learningFactoryPattern.EmployeeFactoryDesign;
-import string.IsAnagram;
-import string.IsSubsequence;
-import string.LeftMostRepeatingChar;
-import string.Palindrome;
+import string.*;
 import tcsPYQ.CountDigits;
 
 public class Main {
@@ -28,5 +25,9 @@ public class Main {
 
 //        Employee employee = EmployeeFactoryDesign.getEmployee("Android Developer");
 //        employee.Salary();
+
+        ReverseWordInString reverseWordInString = new ReverseWordInString();
+        System.out.println(reverseWordInString.reverseWord("Hi I am prishi"));
+
     }
 }
