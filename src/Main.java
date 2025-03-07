@@ -26,8 +26,11 @@ public class Main {
 //        Employee employee = EmployeeFactoryDesign.getEmployee("Android Developer");
 //        employee.Salary();
 
-        ReverseWordInString reverseWordInString = new ReverseWordInString();
-        System.out.println(reverseWordInString.reverseWord("Hi I am prishi"));
+//        ReverseWordInString reverseWordInString = new ReverseWordInString();
+//        System.out.println(reverseWordInString.reverseWord("Hi I am prishi"));
+
+//        PatternSearching patternSearching = new PatternSearching();
+//        patternSearching.naiveApproachPatternSearching("abc","abcdefabcde");
 
     }
 }
