@@ -32,5 +32,8 @@ public class Main {
 //        PatternSearching patternSearching = new PatternSearching();
 //        patternSearching.naiveApproachPatternSearching("abc","abcdefabcde");
 
+        String str = "***#####";
+        IsValidString isValidString = new IsValidString();
+        isValidString.countStarAndHash(str);
     }
 }
