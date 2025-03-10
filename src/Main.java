@@ -3,6 +3,7 @@ import learningFactoryPattern.EmployeeFactoryDesign;
 import string.*;
 import tcsPYQ.CardGame;
 import tcsPYQ.CountDigits;
+import tcsPYQ.StringEncryption;
 
 import java.util.Scanner;
 
@@ -39,18 +40,24 @@ public class Main {
 //        IsValidString isValidString = new IsValidString();
 //        isValidString.countStarAndHash(str);
 
-        //CARD GAME
+//        //CARD GAME
+//
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//
+//        int[] array = new int[n];
+//        for(int i = 0; i<n; i++){
+//            array[i] =sc.nextInt();
+//        }
+//         int k = sc.nextInt();
+//
+//        CardGame cardGame = new CardGame();
+//        System.out.println(cardGame.cardGame(n,array,k));
 
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        //STRING ENCRYPTION
+        String s = "aaabbccd";
+        StringEncryption stringE = new StringEncryption();
+        System.out.println(stringE.stringEncryption(s));
 
-        int[] array = new int[n];
-        for(int i = 0; i<n; i++){
-            array[i] =sc.nextInt();
-        }
-         int k = sc.nextInt();
-
-        CardGame cardGame = new CardGame();
-        System.out.println(cardGame.cardGame(n,array,k));
     }
 }
