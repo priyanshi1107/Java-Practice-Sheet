@@ -1,7 +1,10 @@
 import learningFactoryPattern.Employee;
 import learningFactoryPattern.EmployeeFactoryDesign;
 import string.*;
+import tcsPYQ.CardGame;
 import tcsPYQ.CountDigits;
+
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -32,8 +35,22 @@ public class Main {
 //        PatternSearching patternSearching = new PatternSearching();
 //        patternSearching.naiveApproachPatternSearching("abc","abcdefabcde");
 
-        String str = "***#####";
-        IsValidString isValidString = new IsValidString();
-        isValidString.countStarAndHash(str);
+//        String str = "***#####";
+//        IsValidString isValidString = new IsValidString();
+//        isValidString.countStarAndHash(str);
+
+        //CARD GAME
+
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        int[] array = new int[n];
+        for(int i = 0; i<n; i++){
+            array[i] =sc.nextInt();
+        }
+         int k = sc.nextInt();
+
+        CardGame cardGame = new CardGame();
+        System.out.println(cardGame.cardGame(n,array,k));
     }
 }
